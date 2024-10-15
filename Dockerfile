@@ -1,5 +1,5 @@
-# Use a base image with Python
-FROM python:3.13
+# Use a base image with a more stable version of Python
+FROM python:3.9
 
 # Set the working directory
 WORKDIR /data
